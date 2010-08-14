@@ -43,10 +43,6 @@ when you contribute to my code, please follow these rules:
 
 * Never use for, unless you exactly know why.
 
-* Never use then.
-
-* Use when x; ... for one-line cases.
-
 * Use &&/|| for boolean expressions, and/or for control flow.  (Rule
   of thumb: If you have to use outer parentheses, you are using the
   wrong operators.)
@@ -57,8 +53,8 @@ when you contribute to my code, please follow these rules:
   when calling "functions", i.e. when you use the return value in the
   same line.
 
-    x = Math.sin(y)
-    array.delete e
+      x = Math.sin(y)
+      puts x
 
 * Prefer {...} over do...end. Use do...end for multiline blocks.
   Use do...end for "control flow" and "method definitions"
@@ -139,8 +135,6 @@ when you contribute to my code, please follow these rules:
 * Use def self.method to define singleton methods.
 
 * Add "global" methods to Kernel (if you have to) and make them private.
-
-* Avoid alias when alias_method will do.
 
 * Use OptionParser for parsing complex command line options and
   ruby -s for trivial command line options.
