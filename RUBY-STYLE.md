@@ -18,7 +18,9 @@ when you contribute to our code, please follow these rules:
 
 * No spaces after `(` and before `)`.
 
-* Use spaces after `[` and before `]`.
+* Use spaces after `[` and before `]` when defining a new `Array`.
+
+* No spaces after `[` and before `]` when retrieving values from `Array` or `Hash`.
 
 * Use one space before statement modifiers (postfix
   `if`/`unless`/`while`/`until`/`rescue`).
@@ -37,15 +39,15 @@ when you contribute to our code, please follow these rules:
 
 * Avoid trailing whitespace.
 
+* Ruby file should always end with a newline.
+
 ## Syntax
 
 * Use `def` with parentheses when there are arguments.
 
 * Never use `for`, unless you exactly know why.
 
-* Use `&&`/`||` for boolean expressions, `and`/`or` for control flow. (Rule
-  of thumb: If you have to use outer parentheses, you are using the
-  wrong operators.)
+* Use `&&`/`||` for boolean expressions, `and`/`or` for control flow.
 
 * Avoid multiline `?:`, use `if`.
 
@@ -68,8 +70,7 @@ when you contribute to our code, please follow these rules:
 
 * Use `||=` freely.
 
-* Use non-OO regexps (they won't make the code better). Freely use
-  `=~`, `$0-9`, `$~`, ``$` `` and `$'` when needed.
+* Use non-OO regexps `=~`, `$0`-`$9`, `$~`, ``$` `` and `$'` when needed.
 
 ## Naming
 
@@ -126,6 +127,8 @@ when you contribute to our code, please follow these rules:
 
 * Avoid superfluous comments.
 
+* Do not prefix the comments with your nickname.
+
 ## The rest
 
 * Write `ruby -w` safe code.
@@ -153,7 +156,8 @@ when you contribute to our code, please follow these rules:
 
 * Code in a functional way, avoid mutation when it makes sense.
 
-* Do not mutate arguments unless that is the purpose of the method.
+* Do not mutate arguments unless that is the purpose of the method
+  (use `!` suffix for those methods).
 
 * Do not mess around in core classes when writing libraries.
 
