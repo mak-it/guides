@@ -29,6 +29,8 @@ when you contribute to our code, please follow these rules:
 
 * Indent `def`s in `private`/`protected` as deep as public method definitions.
 
+* Use an empty line before and after `private`/`protected`.
+
 * Indent `when` as deep as case.
 
 * Use an empty line between `def`s.

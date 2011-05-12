@@ -53,3 +53,7 @@ when you contribute to our code, please follow these rules:
         } else {
           return false;
         }
+
+## General
+
+* Use common sense.

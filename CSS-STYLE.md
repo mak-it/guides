@@ -27,3 +27,9 @@ when you contribute to our code, please follow these rules:
         --------------------------------------------------------------------------------------------------*/
         .flash.alert { background: #efd409; padding: 9px 10px; font-style: italic; }
         .signin .alert { text-align: center; }
+
+* Keep lines fewer than 120 or 300 characters, depending on the amount of declarations and common sense.
+
+## General
+
+* Use common sense.
