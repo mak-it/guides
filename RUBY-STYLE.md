@@ -154,7 +154,7 @@ when you contribute to our code, please follow these rules:
 
 ## General
 
-* Every lib or project should have README.md file
+* Every lib or project should have [README.md](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html) file
 
 * Code in a functional way, avoid mutation when it makes sense.
 
