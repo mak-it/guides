@@ -23,12 +23,13 @@ when you contribute to our code, please follow these rules:
 * Use one space before statement modifiers (postfix
   `if`/`unless`/`while`/`until`/`rescue`).
 
-* Indent when as deep as case.
+* Indent `private`/`protected` as deep as public method definitions.
+
+* Indent `def`s in `private`/`protected` as deep as public method definitions.
+
+* Indent `when` as deep as case.
 
 * Use an empty line between `def`s.
-
-* Use RDoc and its conventions for API documentation. Don't put an
-  empty line between the comment block and the def.
 
 * Use empty lines to break up a long method into logical paragraphs.
 
@@ -108,13 +109,20 @@ when you contribute to our code, please follow these rules:
 
 * When defining binary operators, name the argument "other".
 
-* Prefer `map` over `collect`, `find` over `detect`, `find_all` over `select`,
+* Prefer `map` over `collect`, `detect` over `find`, `select` over `find_all`,
   `size` over `length`.
 
 ## Comments
 
+* Use RDoc and its conventions for API documentation. Don't put an
+  empty line between the comment block and the `def`.
+
 * Comments longer than a word are capitalized and use punctuation.
   Use one space after periods.
+
+* Use one space after `#`:
+
+        # This is my comment.
 
 * Avoid superfluous comments.
 
@@ -140,6 +148,8 @@ when you contribute to our code, please follow these rules:
 * Avoid needless metaprogramming.
 
 ## General
+
+* Every lib or project should have README.md file
 
 * Code in a functional way, avoid mutation when it makes sense.
 
