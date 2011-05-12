@@ -36,7 +36,7 @@ when you contribute to our code, please follow these rules:
 
 * Use empty lines to break up a long function into logical paragraphs.
 
-* Keep lines fewer than 80 characters.
+* Keep lines fewer than 120 characters.
 
 * Avoid trailing whitespace.
 
