@@ -54,6 +54,14 @@ when you contribute to our code, please follow these rules:
           return false;
         }
 
+## Naming
+
+* Use camelCase for variables and functions.
+
+* Prefix jQuery objects with `$`:
+
+        var $links = $('a');
+
 ## General
 
 * Use common sense.
