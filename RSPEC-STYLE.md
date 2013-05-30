@@ -73,6 +73,7 @@ User
 * Use `feature`/`scenario` over `describe`
 * Use only one `feature` block per feature spec file
 * Use scenario titles that describe the success and failure paths
+* Avoid scenario titles that add no information, such as "successfully"
 * Use `let!` for objects that are required for all scenarios
 
 Example:
