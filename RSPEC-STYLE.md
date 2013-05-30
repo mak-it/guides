@@ -10,6 +10,7 @@
 
 * Use factory_girl and not fixtures
 * Prefer `spec/factories/*.rb` over `spec/factories.rb`
+* Prefer shorter `create`/`build` over `FactoryGirl.create`/`FactoryGirl.build`
 
 ## Model Specs
 
