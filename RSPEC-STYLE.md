@@ -79,22 +79,18 @@ Example:
 
 ```ruby
 feature 'Sessions' do
-  let!(:user) { create :user }
+  let!(:user) { create :user, password: 'pass123' }
 
   scenario 'User signs in using valid username and password' do
-    User.should_receive(:authenticate).
-      with(user.username, 'password').
-      and_return(user)
-
     visit new_session_path
 
     fill_in 'user_username', with: user.username
-    fill_in 'user_password', with: 'password'
+    fill_in 'user_password', with: 'pass123'
 
     click_button I18n.t('helpers.submit.sign_in')
 
     page.should have_content user.full_name
-    page.should have_link t('nav.sign_out')
+    page.should have_link I18n.t('nav.sign_out')
   end
 end
 ```
