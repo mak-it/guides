@@ -4,7 +4,7 @@
 * Use `let` instead of instance variables
 * Don't nest too deep - maximum 3 levels of `describe`/`context`
 * Prefer `spec/support/*` over `spec/spec_helper.rb`
-* Prefer eq to == in RSpec
+* Prefer `eq` over `==`
 
 ## Factories
 
