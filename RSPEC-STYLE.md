@@ -118,4 +118,3 @@ Sessions
 ## More information
 
 * [Better Specs](http://betterspecs.org/)
-* []
