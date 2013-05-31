@@ -71,8 +71,7 @@ User
 ## Feature Specs
 
 * Use `spec/features` to store feature specs
-* Use `feature`/`scenario` over `describe`
-* Use only one `feature` block per feature spec file
+* Use only one `describe` block per feature spec file
 * Use scenario titles that describe the success and failure paths
 * Avoid scenario titles that add no information, such as "successfully"
 * Use `let!` for objects that are required for all scenarios
@@ -80,10 +79,10 @@ User
 Example:
 
 ```ruby
-feature 'Sessions' do
+describe 'Sessions' do
   let!(:user) { create :user, password: 'pass123' }
 
-  scenario 'User signs in using valid username and password' do
+  it 'should sign in using valid username and password' do
     visit new_session_path
 
     fill_in 'user_username', with: user.username
