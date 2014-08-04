@@ -25,8 +25,14 @@ when you contribute to our code, please follow these rules:
 
         /* FLASH MESSAGES
         --------------------------------------------------------------------------------------------------*/
-        .flash.alert { background: #efd409; padding: 9px 10px; font-style: italic; }
-        .signin .alert { text-align: center; }
+        .flash {
+          padding: 9px 10px;
+        }
+        
+        .flash-alert {
+          background: #efd409;
+          color: #fff;
+        }
 
 * Keep lines fewer than 120 or 300 characters, depending on the amount of declarations and common sense.
 
