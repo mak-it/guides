@@ -148,8 +148,6 @@ when you contribute to our code, please follow these rules:
 * Use `OptionParser` for parsing complex command line options and
   `ruby -s` for trivial command line options.
 
-* Write for 1.8, but avoid doing things you know that will break in 1.9.
-
 * Avoid needless metaprogramming.
 
 ## General
