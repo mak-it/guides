@@ -1,6 +1,6 @@
 # Guides
 
-* [Ruby Guide](RUBY-STYLE.md)
-* [RSpec Guide](RSPEC-STYLE.md)
-* [JS Guide](JS-STYLE.md)
-* [CSS Guide](CSS-STYLE.md)
+* [Ruby Guide](RUBY.md)
+* [RSpec Guide](RSPEC.md)
+* [JS Guide](JS.md)
+* [CSS Guide](CSS.md)
