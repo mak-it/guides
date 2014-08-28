@@ -1,4 +1,4 @@
-# RSpec Style Guide
+# RSpec Guide
 
 * Use `I18n.t` instead of hardcoded translations
 * Use `let` instead of instance variables
@@ -11,6 +11,7 @@
 * Use factory_girl and not fixtures
 * Prefer `spec/factories/*.rb` over `spec/factories.rb`
 * Prefer shorter `create`/`build` over `FactoryGirl.create`/`FactoryGirl.build`
+  (include FactoryGirl::Syntax::Methods)
 
 ## Model Specs
 
